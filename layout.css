@@ -1,0 +1,50 @@
+.container1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	/*align-content:space-between;*/
+	flex-direction: column;
+
+}
+
+.banner,.slider, .footer{
+	width: 980px;
+	margin: 0px 20px 20px 20px;
+	background-color: #d3e3f7;
+}
+
+.banner{
+	height: 70px;
+		
+}
+
+.slider{
+	height: 250px;
+		
+}
+
+.container2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	/*flex-direction: row;*/
+}
+.container2 div{
+	width: 300px;
+	height: 300px;
+	background-color: #d3e3f7;
+	margin: 0px 20px 0px 20px;
+}
+
+.container3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+.footer{
+	height: 70px;
+	margin-top: 20px;
+}
